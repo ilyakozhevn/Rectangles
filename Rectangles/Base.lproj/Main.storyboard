@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view verifyAmbiguity="ignoreSizes" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjh-t3-KWN">
+                            <view verifyAmbiguity="ignoreSizes" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjh-t3-KWN">
                                 <rect key="frame" x="20" y="463" width="388" height="10"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="10" id="dRq-XS-MB4"/>
@@ -34,15 +34,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fjh-t3-KWN" secondAttribute="trailing" constant="20" id="DP7-dB-9cg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t2L-bh-tCe" secondAttribute="trailing" constant="20" id="DXv-Sq-2YH"/>
                             <constraint firstItem="Iiy-U3-P9p" firstAttribute="top" secondItem="fjh-t3-KWN" secondAttribute="bottom" constant="10" id="ETO-u0-J01"/>
                             <constraint firstItem="Iiy-U3-P9p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MMh-hp-4NB"/>
                             <constraint firstItem="Iiy-U3-P9p" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="RkT-dl-XXd"/>
+                            <constraint firstItem="fjh-t3-KWN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="X1T-gd-AP3"/>
                             <constraint firstItem="t2L-bh-tCe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Yoo-w2-Gxr"/>
                             <constraint firstItem="t2L-bh-tCe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gT7-YK-Hjn"/>
                             <constraint firstItem="fjh-t3-KWN" firstAttribute="top" secondItem="t2L-bh-tCe" secondAttribute="bottom" constant="10" id="rOE-yB-eAY"/>
-                            <constraint firstItem="fjh-t3-KWN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tbs-sD-iQx"/>
                             <constraint firstItem="fjh-t3-KWN" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="uhC-jT-BX5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Iiy-U3-P9p" secondAttribute="trailing" constant="20" id="ya4-i9-q03"/>
                         </constraints>
